@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>PORTFOLIO</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   </head>
+   <body class="bg-gray-800">
+      <header class="fixed w-full">
+         <nav
+            class="bg-gray-700 flex flex-col sm:flex-row justify-between items-center px-6 py-4 sm:px-18 h-auto sm:h-20 shadow-sm"
+         >
+            <h1 class="text-2xl text-gray-100 font-sans font-semibold">
+               Adithyan S
+            </h1>
+            <div class="flex gap-2 gap-10 sm:gap-8 mt-4 sm:mt-0">
+               <a
+                  href="#home"
+                  class="text-lg font-medium text-gray-100 hover:text-gray-300"
+                  >Home</a
+               >
+               <a
+                  href="#about"
+                  class="text-lg font-medium text-gray-100 hover:text-gray-300"
+                  >About</a
+               >
+               <a
+                  href="#projects"
+                  class="text-lg font-medium text-gray-100 hover:text-gray-300"
+                  >Projects</a
+               >
+               <a
+                  href="#contact"
+                  class="text-lg font-medium text-gray-100 hover:text-gray-300"
+                  >Contact</a
+               >
+            </div>
+         </nav>
+      </header>
+      
+      <section id="home" class="h-150 pt-20 flex flex-col justify-center items-center box-border">
+         <img
+            class="w-40 mb-8 rounded-full"
+            src="https://media.licdn.com/dms/image/v2/D4E03AQHbpcPJYu0KKg/profile-displayphoto-shrink_200_200/B4EZU4zZyoG0AY-/0/1740414755119?e=1758153600&v=beta&t=pKwNs6dpGc8z_ZbS2nd1cB2K8IeI9riHJcG3xJCdHiY"
+            alt=""
+         />
+         <h2 class="text-3xl text-gray-200 font-bold mb-5">
+            Hi, I'm Adithyan S
+         </h2>
+         <p class="text-lg italic text-gray-400">
+            "Crafting Clean Code & Beautiful Web Experiences"
+         </p>
+         <button
+            class="mt-6 bg-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-700 cursor-pointer"
+         >
+            Download Resume
+         </button>
+      </section>
+      <section
+         id="about"
+         class="h-auto sm:h-90 px-8 flex flex-col justify-center items-center box-border pt-20"
+      >
+         <h2 class="text-2xl text-gray-300 font-bold mb-8">About Me</h2>
+         <div class="flex flex-col sm:flex-row w-full">
+            <div class="w-1/1 sm:w-1/2 h-auto mb-8 sm:mb-0 sm:h-50 px-8 box-border">
+               <p class="mb-4 text-gray-300">
+                  I'm a passionate web developer with a strong interest in
+                  building efficient, user-friendly websites and web apps. My
+                  goal is to constantly learn and improve my skills to
+                  contribute to real-world projects.
+               </p>
+               <p class="text-gray-300">
+                  When I'm not coding, I enjoy photography and experimenting
+                  with UI/UX design in my spare time.
+               </p>
+            </div>
+            <div class="w-1/1 sm:w-1/2 h-auto sm:h-50 box-border px-8">
+               <h3 class="text-lg text-gray-300 font-semibold mb-2">Skills</h3>
+               <ul class="flex flex-wrap gap-2">
+                  <li class="bg-gray-300 px-4 py-1 rounded-full">HTML</li>
+                  <li class="bg-gray-300 px-4 py-1 rounded-full">
+                     Tailwind CSS
+                  </li>
+                  <li class="bg-gray-300 px-4 py-1 rounded-full">JavaScript</li>
+                  <li class="bg-gray-300 px-4 py-1 rounded-full">React</li>
+               </ul>
+
+               <h3 class="text-lg text-gray-300 font-semibold mt-6 mb-2">
+                  Education
+               </h3>
+               <ul class="space-y-2 text-gray-300">
+                  <li>🎓 B.TECH in Computer Science (S3)</li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <section id="projects" class="h-auto sm:h-120 w-full flex flex-col items-center pt-20 box-border">
+         <h2 class="text-2xl text-gray-300 font-bold mb-8">PROJECTS</h2>
+         <div class="w-full h-full flex flex-col sm:flex-row gap-8 items-center sm:justify-evenly px-6 pt-5 box-border">
+            <div
+               class="w-80 sm:w-100 h-80 bg-gray-200 shadow-lg rounded-2xl overflow-hidden"
+            >
+               <img
+                  class="w-full object-cover h-48"
+                  src="https://media.licdn.com/dms/image/v2/D4E22AQH0O3RO5CjhHg/feedshare-shrink_2048_1536/B4EZcH8TBdHcAo-/0/1748184938526?e=1755734400&v=beta&t=6qNmNVXrai89SIj2AWrk4vbK4VgO6TsO8MVjnYMBNOY"
+                  alt=""
+               />
+               <div class="p-4">
+                  <h3 class="font-bold text-lg mb-2">Tenzie</h3>
+                  <p class="text-sm mb-3">Dice Game in React! 🎲</p>
+                  <a href="https://github.com/Adithyansunilkumar/tenzi-game" class="text-blue-600 hover:underline"
+                     >View on GitHub</a
+                  >
+               </div>
+            </div>
+            <div
+               class="w-80 sm:w-100 h-80 bg-gray-200 shadow-lg rounded-2xl overflow-hidden"
+            >
+               <img
+                  class="w-full object-cover h-48"
+                  src="https://media.licdn.com/dms/image/v2/D4E22AQGY6n8tCAK7yQ/feedshare-shrink_2048_1536/B4EZbZpU63HIAo-/0/1747408212253?e=1755734400&v=beta&t=0cWcrTu0uEdtiYoU7o4-pwuYBpvswDTbHaBVYfBH8Ro"
+                  alt=""
+               />
+               <div class="p-4">
+                  <h3 class="font-bold text-lg mb-2">To-do App</h3>
+                  <p class="text-sm mb-3">
+                     To-do App using React.js and CSS. 🛠️✅
+                  </p>
+                  <a href="https://github.com/Adithyansunilkumar/Todo-App" class="text-blue-600 hover:underline"
+                     >View on GitHub</a
+                  >
+               </div>
+            </div>
+            <div
+               class="w-80 sm:w-100 h-80 bg-gray-200 shadow-lg rounded-2xl overflow-hidden"
+            >
+               <img
+                  class="w-full object-cover h-48"
+                  src="https://media.licdn.com/dms/image/v2/D4E22AQGQtKw2aZhYbA/feedshare-shrink_1280/feedshare-shrink_1280/0/1727709885168?e=1755734400&v=beta&t=kBNCoyWNpTBlZ0UGwY6690L6cFB44VY-aMXuv7rstG8"
+                  alt=""
+               />
+               <div class="p-4">
+                  <h3 class="font-bold text-lg mb-2">Portfolio</h3>
+                  <p class="text-sm mb-3">Portfolio build using HTML and CSS</p>
+                  <a href="https://github.com/Adithyansunilkumar/portfolio-website" class="text-blue-600 hover:underline"
+                     >View on GitHub</a
+                  >
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="contact" class="h-140 flex flex-col pt-20 px-10">
+         <h2 class="text-2xl text-gray-300 font-bold mb-8 text-center">Contact Me</h2>
+         <form class="max-w-xl mx-auto space-y-4">
+            <input
+               type="text"
+               placeholder="Your Name"
+               class="w-full border-1 text-gray-100 border-gray-300 rounded-lg p-3"
+            />
+            <input
+               type="email"
+               placeholder="Your Email"
+               class="w-full border-1 text-gray-100 border-gray-300 rounded-lg p-3"
+            />
+            <textarea
+               placeholder="Your Message"
+               rows="5"
+               class="w-full border-1 text-gray-100 border-gray-300 rounded-lg p-3"
+            ></textarea>
+            <button
+               type="submit"
+               class="w-full bg-gray-600 text-white py-3 rounded-lg hover:bg-gray-700 transition"
+            >
+               Send Message
+            </button>
+         </form>
+         <div class="flex justify-center space-x-4 mt-6 text-xl">
+            <a href="#" class="text-gray-600 hover:text-blue-600"
+               ><i class="fab fa-github"></i
+            ></a>
+            <a href="#" class="text-gray-600 hover:text-blue-600"
+               ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" class="text-gray-600 hover:text-blue-600"
+               ><i class="fab fa-twitter"></i
+            ></a>
+         </div>
+      </section>
+   </body>
+</html>
